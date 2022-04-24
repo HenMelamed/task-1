@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rectangle Calculator</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Rectangle Calculator</h1>
+      <br />
+    </header>
+    <main>
+      <form>
+        <label>Width</label>
+        <br />
+        <input type="number" id="width" min="1" max="300" />
+        <br />
+        <label>Height</label>
+        <br />
+        <input type="number" id="height" min="1" max="300" />
+        <br />
+        <label>Position (x)</label>
+        <br />
+        <input type="number" id="Px" min="1" max="300" />
+        <br />
+        <label>Position (y)</label>
+        <br />
+        <input type="number" id="Py" min="1" max="300" />
+        <br />
+      </form>
+      <label id="multi">Rectangle Area:</label>
+      <br />
+      <input type="submit" value="Calculate & Draw" id="btn1" />
+      <input type="submit" value="Reset" id="btn2" />
+      <br />
+      <canvas id="myCanvas" width="300" , height="300"></canvas>
+    </main>
+  </body>
+</html>
